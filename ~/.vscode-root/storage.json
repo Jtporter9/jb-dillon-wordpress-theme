@@ -1459,11 +1459,11 @@
             "folder": "file:///var/www/html/wordpress/wp-content/themes/customjbdillontheme",
             "backupPath": "/var/www/html/wordpress/wp-content/themes/customjbdillontheme/~/.vscode-root/Backups/36d31ff17ca4a46358cebe109ae3576c",
             "uiState": {
-                "mode": 0,
-                "x": 139,
-                "y": 230,
+                "mode": 1,
+                "x": 1920,
+                "y": 37,
                 "width": 1280,
-                "height": 773
+                "height": 1043
             }
         },
         "openedWindows": []

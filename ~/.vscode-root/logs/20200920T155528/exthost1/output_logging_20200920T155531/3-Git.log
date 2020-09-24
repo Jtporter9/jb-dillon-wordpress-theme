@@ -14,3 +14,72 @@ Use '--' to separate paths from revisions, like this:
 > git show --textconv :.gitignore
 > git ls-files --stage -- /var/www/html/wordpress/wp-content/themes/customjbdillontheme/.gitignore
 > git check-ignore -v -z --stdin
+> git status -z -u
+> git ls-files --stage -- /var/www/html/wordpress/wp-content/themes/customjbdillontheme/.gitignore
+> git symbolic-ref --short HEAD
+> git cat-file -s 30bc1627986aa5d1e6aebc1718de71eaee6021c5
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git show --textconv :.gitignore
+> git config --get commit.template
+> git show --textconv :404.php
+> git ls-files --stage -- /var/www/html/wordpress/wp-content/themes/customjbdillontheme/404.php
+> git cat-file -s e69de29bb2d1d6434b8b29ae775ad8c2e48c5391
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :.gitignore
+> git ls-files --stage -- /var/www/html/wordpress/wp-content/themes/customjbdillontheme/.gitignore
+> git cat-file -s 30bc1627986aa5d1e6aebc1718de71eaee6021c5
+> git show --textconv :src/app.scss
+> git ls-files --stage -- /var/www/html/wordpress/wp-content/themes/customjbdillontheme/src/app.scss
+> git cat-file -s a96ad218b8c33420a31f5e1bb54ada4f77125aeb
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: no upstream configured for branch 'master'
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname)
+> git remote --verbose
+> git config --get commit.template
