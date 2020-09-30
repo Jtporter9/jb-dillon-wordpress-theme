@@ -18,8 +18,10 @@ function load_javascript()
 }
 add_action('wp_enqueue_scripts', 'load_javascript');
 
-// MENUS
+// ADD SUPPORT
 add_theme_support('menus');
+add_theme_support('post-thumbnails');
+
 
 // Register some menus
 register_nav_menus(
@@ -27,3 +29,24 @@ register_nav_menus(
         'top-menu' => 'Top Menu',
     )
 );
+
+
+//Add image sizes
+add_image_size('post_image', 1100, 750, true);
+
+// Add a widget
+register_sidebar(
+    array (
+        'name' => 'Page Sidebar',
+        'id' => 'page-sidebar',
+        'class' => '',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>',
+    )
+);
+
+function mytheme_add_woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
+
+add_action( 'after_setup_theme', 'mytheme_add_woocommerce_support' );

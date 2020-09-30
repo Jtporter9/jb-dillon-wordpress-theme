@@ -6,9 +6,15 @@
 <body <?php body_class(); ?> >
     
 <header>
-<div class="container">
+  <div id="announcementBar" class="announcement-bar">
+      <p class="announcement-bar-message">Free shipping. Free exchanges. No nonsense.</p>
+      <a id="closeAnnouncement" class="announcement-bar-close-icon" href="#announementBar"><img src="//cdn.shopify.com/s/files/1/0378/0866/8805/t/2/assets/x-icon.svg?v=10321759202141566220"></a>
+  </div>
+<div class="container py-2">
   <div class="row d-flex align-items-center justify-content-between">
-      <img src="<?php bloginfo('template_directory');?>/assets/logo.svg" class="img-fluid">
+      <a href="<?php bloginfo('url');?>">
+        <img src="<?php bloginfo('template_directory');?>/assets/logo.svg" class="img-fluid">
+      </a>
       <?php
       wp_nav_menu(
           array(
@@ -17,6 +23,19 @@
           )
         );
       ?>
+      <div class="site-header-icons-wrapper">
+        <a href="/pages/help" class="">
+          <span class="secondary-nav-link">Help</span>
+        </a>
+
+        <a href="/account/login" class="">
+          <span class="secondary-nav-link">Login</span>
+        </a>
+
+        <a id="floatingCart" class="">
+          <img src="<?php bloginfo('template_directory');?>/assets/cart-icon.svg">
+        </a>
+      </div>
   </div>
 </div>
 </header>

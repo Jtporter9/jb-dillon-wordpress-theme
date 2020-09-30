@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo&display=swap');
 @import 'styles/typography.scss';
 @import 'styles/colors.scss';
+@import 'styles/woocommerce.scss';
+@import 'styles/header.scss';
+@import 'styles/footer.scss';
+
 
 header {
     .top-menu {
@@ -19,14 +23,47 @@ header {
 }
 
 #hero {
-    height: 400px;
+    height: 550px;
     width: 100%;
-    background: url('assets/hero_img.jpg');
-    h1 {
-        color: white;
+    background: url('assets/hero_img.jpg') no-repeat center;
+    background-size: cover;
+    color: white;
+    img {
+        width: 125px;
+    }
+    h2 {
+        font-size: 48px;
+        font-weight: bold;
+    }
+    p {
+        font-size: 16px;
     }
 }
 
 .content {
     padding: 3rem 0;
+}
+
+.btn {
+    border-radius: 2px;
+    padding: 6px 24px;
+    color: white;
+    text-transform: uppercase;
+    box-shadow: none;
+    text-decoration: none;
+    letter-spacing: 0.24em;
+}
+
+.btn-primary {
+    background: $rock-dark;
+    border: 2px solid $rock-dark;
+    :hover {
+        background: $rock-lightest;
+        border: 2px solid $rock-mid;
+        color: $functional-darkest;
+    }
+}
+
+.cool-border {
+    height: 23px;
 }
