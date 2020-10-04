@@ -1,8 +1,9 @@
 <?php get_header(); ?>
 
 <div id="hero">
+    <div class="custom-hero-overlay"></div>
     <div class="container d-flex align-items-center justify-content-center h-100 py-5">
-        <div class="page-width text-center">
+        <div class="hero-content page-width text-center">
             <div class="my-3">
                 <img src="<?php bloginfo('template_directory');?>/assets/white-logo.svg" class="img-fluid">
             </div>

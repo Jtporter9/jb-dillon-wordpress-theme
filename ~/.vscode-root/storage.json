@@ -2,6 +2,7 @@
     "telemetry.machineId": "cbd02f72000ac30ff0e94150dbcd1094756c646910509ba4528f5f36dac49e77",
     "openedPathsList": {
         "workspaces3": [
+            "file:///opt/lampp/htdocs/projects/wordpress/wp-content/themes/jb-dillon-wordpress-theme",
             "file:///var/www/html/wordpress/wp-content/themes/customjbdillontheme"
         ],
         "files2": []
@@ -49,7 +50,18 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "fsPath": "/var/www/html/wordpress/wp-content/themes/customjbdillontheme",
+                                        "fsPath": "/opt/lampp/htdocs/projects/wordpress/wp-content/themes/jb-dillon-wordpress-theme",
+                                        "external": "file:///opt/lampp/htdocs/projects/wordpress/wp-content/themes/jb-dillon-wordpress-theme",
+                                        "path": "/opt/lampp/htdocs/projects/wordpress/wp-content/themes/jb-dillon-wordpress-theme",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "/opt/lampp/htdocs/projects/wordpress/wp-content/themes/jb-dillon-wordpress-theme"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///var/www/html/wordpress/wp-content/themes/customjbdillontheme",
                                         "path": "/var/www/html/wordpress/wp-content/themes/customjbdillontheme",
                                         "scheme": "file"
@@ -98,8 +110,7 @@
                     },
                     {
                         "id": "workbench.action.files.saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -398,8 +409,7 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "Show &&Panel",
-                                    "checked": true
+                                    "label": "Show &&Panel"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -893,7 +903,8 @@
                     },
                     {
                         "id": "workbench.action.terminal.split",
-                        "label": "&&Split Terminal"
+                        "label": "&&Split Terminal",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1456,14 +1467,14 @@
     "themeBackground": "#1e1e1e",
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///var/www/html/wordpress/wp-content/themes/customjbdillontheme",
-            "backupPath": "/var/www/html/wordpress/wp-content/themes/customjbdillontheme/~/.vscode-root/Backups/36d31ff17ca4a46358cebe109ae3576c",
+            "folder": "file:///opt/lampp/htdocs/projects/wordpress/wp-content/themes/jb-dillon-wordpress-theme",
+            "backupPath": "/opt/lampp/htdocs/projects/wordpress/wp-content/themes/jb-dillon-wordpress-theme/~/.vscode-root/Backups/d12fb13b04099d9f394922b784ee1947",
             "uiState": {
-                "mode": 1,
-                "x": 1920,
-                "y": 37,
+                "mode": 0,
+                "x": 640,
+                "y": 64,
                 "width": 1280,
-                "height": 1043
+                "height": 1016
             }
         },
         "openedWindows": []

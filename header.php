@@ -8,10 +8,12 @@
 <header>
   <div id="announcementBar" class="announcement-bar">
       <p class="announcement-bar-message">Free shipping. Free exchanges. No nonsense.</p>
-      <a id="closeAnnouncement" class="announcement-bar-close-icon" href="#announementBar"><img src="//cdn.shopify.com/s/files/1/0378/0866/8805/t/2/assets/x-icon.svg?v=10321759202141566220"></a>
+      <a id="closeAnnouncement" class="announcement-bar-close-icon" href="#announementBar"><img src="<?php bloginfo('template_directory');?>/assets/x-icon.svg"></a>
   </div>
-<div class="container py-2">
-  <div class="row d-flex align-items-center justify-content-between">
+  <div class="menu-container container d-flex align-items-center justify-content-between">
+      <a href="" type="submit" class="mobile-hamburger" aria-controls="MobileNav" aria-expanded="false" aria-label="Menu">
+        <img src="<?php bloginfo('template_directory');?>/assets/hamburger.svg" class="icon icon-hamburger custom-hamburger">
+      </a>
       <a href="<?php bloginfo('url');?>">
         <img src="<?php bloginfo('template_directory');?>/assets/logo.svg" class="img-fluid">
       </a>
@@ -37,6 +39,5 @@
         </a>
       </div>
   </div>
-</div>
 </header>
 

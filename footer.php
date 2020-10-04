@@ -1,7 +1,14 @@
 
 <footer>
-<div style="background: url(<?php bloginfo('template_directory');?>/assets/union-top-dark.svg) center;" class="cool-border cool-border-top"></div>
+    <div style="background: url(<?php bloginfo('template_directory');?>/assets/union-top-dark.svg) center;" class="cool-border cool-border-top"></div>
     <div class="footer-container">
+        <div class="footer-logo-container">
+            <img class="footer-logo" src="<?php bloginfo('template_directory');?>/assets/white-logo.svg" alt="JB Dillon Logo">
+            <ul>
+                <li><span>1992 - 2020</span></li>
+                <li><span>PRIVACY - TERMS</span></li>
+            </ul>
+        </div>
         <div>
             <p>Shop</p>
             <ul>
